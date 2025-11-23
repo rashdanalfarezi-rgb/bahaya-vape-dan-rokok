@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pelajari bahaya vape dan rokok berdasarkan data WHO dan Kemenkes RI. Tips berhenti merokok dan vaping.">
+    <meta name="keywords" content="bahaya vape, bahaya rokok, kesehatan, WHO, Kemenkes RI">
+    <title>Bahaya Vape dan Rokok</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
+        header { background-color: #d9534f; color: white; text-align: center; padding: 20px; }
+        nav { background-color: #333; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        section { padding: 20px; max-width: 800px; margin: 0 auto; }
+        .cta { background-color: #5cb85c; color: white; padding: 10px; text-align: center; margin: 20px 0; cursor: pointer; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        table th, table td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        footer { background-color: #333; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+        img { max-width: 100%; height: auto; margin: 10px 0; }
+        @media (max-width: 600px) { nav a { display: block; margin: 5px 0; } }
+    </style>
+    <script>
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+        }
+        function showAlert() {
+            alert('Terima kasih! Kunjungi bagian konten untuk informasi lebih lanjut.');
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Bahaya Vape dan Rokok: Fakta yang Perlu Anda Ketahui</h1>
+        <p>Vape dan rokok bukanlah pilihan sehat. Menurut WHO, rokok menyebabkan 8 juta kematian per tahun, sementara vape meningkatkan risiko penyakit jantung dan paru-paru. Pelajari lebih lanjut untuk kesehatan Anda.</p>
+        <div class="cta" onclick="showAlert()">Pelajari Lebih Lanjut</div>
+    </header>
+    
+    <nav>
+        <a href="#home" onclick="scrollToSection('home')">Beranda</a>
+        <a href="#rokok" onclick="scrollToSection('rokok')">Bahaya Rokok</a>
+        <a href="#vape" onclick="scrollToSection('vape')">Bahaya Vape</a>
+        <a href="#perbandingan" onclick="scrollToSection('perbandingan')">Perbandingan</a>
+        <a href="#tips" onclick="scrollToSection('tips')">Tips Berhenti</a>
+    </nav>
+    
+    <section id="home">
+        <h2>Selamat Datang</h2>
+        <p>Website ini menyediakan informasi edukasi tentang risiko kesehatan dari vape dan rokok. Data berdasarkan sumber terpercaya seperti WHO dan Kemenkes RI.</p>
+    </section>
+    
+    <section id="rokok">
+        <h2>Bahaya Rokok</h2>
+        <ul>
+            <li>Risiko kanker paru-paru, mulut, dan tenggorokan.</li>
+            <li>Penyakit jantung, stroke, dan masalah pernapasan.</li>
+            <li>Dampak pada perokok pasif: meningkatkan risiko kanker dan penyakit pernapasan.</li>
+        </ul>
+        <img src="https://via.placeholder.com/400x200?text=Paru-paru+Sehat+vs+Rusak+Akibat+Rokok" alt="Ilustrasi paru-paru sehat vs rusak akibat rokok">
+    </section>
+    
+    <section id="vape">
+        <h2>Bahaya Vape</h2>
+        <ul>
+            <li>Bukan alternatif aman: mengandung nikotin yang adiktif.</li>
+            <li>Risiko kerusakan paru-paru (seperti EVALI), penyakit jantung, dan bahan kimia berbahaya.</li>
+            <li>Sering menarik remaja, meningkatkan kecanduan.</li>
+        </ul>
+        <img src="https://via.placeholder.com/400x200?text=Dampak+Vape+pada+Paru-paru" alt="Ilustrasi dampak vape pada paru-paru">
+    </section>
+    
+    <section id="perbandingan">
+        <h2>Perbandingan Vape vs. Rokok</h2>
+        <table>
+            <tr><th>Aspek</th><th>Rokok</th><th>Vape</th></tr>
+            <tr><td>Risiko Kesehatan</td><td>Tinggi (kanker, jantung)</td><td>Tinggi (paru-paru, adiksi)</td></tr>
+            <tr><td>Biaya</td><td>Mahal jangka panjang</td><td>Mahal, plus perawatan perangkat</td></tr>
+            <tr><td>Kecanduan</td><td>Sangat adiktif</td><td>Sangat adiktif (nikotin)</td></tr>
+        </table>
+        <h3>Dampak Sosial dan Lingkungan</h3>
+        <p>Puntung rokok mencemari lingkungan, sementara limbah vape berkontribusi pada polusi plastik.</p>
+    </section>
+    
+    <section id="tips">
+        <h2>Tips dan Solusi untuk Berhenti</h2>
+        <ul>
+            <li>Konsultasi dokter atau gunakan terapi pengganti nikotin.</li>
+            <li>Gabung aplikasi dukungan seperti QuitNow atau hotline: 0800-177-6565 (Indonesia).</li>
+            <li>Cari dukungan keluarga dan hindari pemicu.</li>
+        </ul>
+        <p>Sumber: <a href="https://www.who.int" target="_blank">WHO</a>, <a href="https://www.kemkes.go.id" target="_blank">Kemenkes RI</a>.</p>
+    </section>
+    
+    <footer>
+        <p>Disclaimer: Informasi ini bukan pengganti nasihat medis. Konsultasikan dokter untuk saran pribadi.</p>
+    </footer>
+</body>
+</html>
